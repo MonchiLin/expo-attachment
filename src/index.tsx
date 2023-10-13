@@ -1,3 +1,3 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+export { AlbumAssetThumbnailView } from './components/album-asset-thumbnail-view';
+export type { InAppAlbumTypes } from './components/shared-types';
+export * from './components/light-box';
